@@ -56,9 +56,6 @@ start index.html  # Windows
 open index.html   # Mac
 ```
 
-### Option 2: Live Demo
-👉 **[Try it Live!](https://mravatar0.github.io/Simple-ToDo)**
-
 ## 💻 Technologies Used
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
