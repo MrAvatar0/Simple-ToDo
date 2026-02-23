@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(0deg,rgba(122, 0, 245, 1) , rgba(51, 242, 239, 1));
+    text-align: center;
+    font-family: sans-serif;
+    outline: 0;
+}
+button {
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    width: 160px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+h1 {
+    padding: 50px 0 20px;
+    font-size: 60px;
+}
+#addlist {
+    width: 800px;
+    margin: auto;
+    padding: 0;
+}
+#addList input {
+    font-size: 20px;
+    width: 550px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.116);
+    padding: 0 15px;
+    text-align: center;  
+}
+#addList input:focus {
+    outline: none;
+}
+#addList button {
+    background-color: rgba(0, 0, 0, 0.116);
+    transition: all 0.3s ease;
+
+}
+#addList button:hover{
+
+    background-color: rgba(0, 255, 85, 0.822);
+    color: #4c1d95;
+}
+#list {
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 0px;
+}
+.todo-item{ 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.todo-item div {
+    font-size: 20px;
+    width: 520px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.116);
+    margin: 1px 6px 1px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px; 
+}
+.not-complete {
+    background-color: yellow;
+    color: black;
+}
+.complete {
+    background-color: green;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.75; }
+    100% { opacity: 1; }
+  }
+  
+  .blink {
+    animation: blink 1s infinite;
+  }
